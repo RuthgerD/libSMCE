@@ -42,6 +42,8 @@ target_sources (Ardrivo PRIVATE
         src/Ardrivo/OV767X.cpp
         include/Ardrivo/Print.h
         src/Ardrivo/Print.cpp
+        include/Ardrivo/SD.h
+        src/Ardrivo/SD.cpp
         include/Ardrivo/SMCE.hpp
         include/Ardrivo/SMCE_dll.hpp
         include/Ardrivo/SMCE_numeric.hpp
