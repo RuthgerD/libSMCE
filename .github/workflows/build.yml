@@ -475,6 +475,9 @@ jobs:
           - name: Ubuntu
             codename: Focal
             image: ubuntu:focal
+          - name: Ubuntu
+            codename: Jammy
+            image: ubuntu:jammy
     container:
       image: ${{ matrix.os.image }}
       options: --security-opt seccomp=unconfined
